@@ -7,7 +7,6 @@ This is a simple implementation of the popular 2048 game in C using the `ncurses
 - [How to Play](#how-to-play)
 - [Code Overview](#code-overview)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Gameplay
 
