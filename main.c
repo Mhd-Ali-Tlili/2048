@@ -253,6 +253,14 @@ int main() {
             add_two();
         }
         display_board();
+        if (won) {
+            printw("============= YOU WIN =============\n");
+            printw("=========== (press a key) ===========\n");
+            refresh();
+            getch();
+            reset_board();
+            won = false;
+        }
         if (game_lost()) {
             game_over();
             reset_board();
